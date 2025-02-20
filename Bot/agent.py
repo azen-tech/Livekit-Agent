@@ -58,6 +58,7 @@ def run_multimodal_agent(ctx: JobContext, participant: rtc.RemoteParticipant):
     )
     agent.start(ctx.room, participant)
 
+
     # to enable the agent to speak first
     agent.generate_reply()
 
